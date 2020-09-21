@@ -1,8 +1,8 @@
 const myHeaders = new Headers();
 const formData = new FormData();
 
-const CLIENT_ID = "22f71f00213e8ab8d23e";
-const CLIENT_SECRET = "e2ba2d6a34a24c990417703ddbdd3fcb302fb972";
+const CLIENT_ID = "";
+const CLIENT_SECRET = "";
 
 export const getAcessToken = async(code) => {
   myHeaders.append("Access-Control-Allow-Origin", "*");

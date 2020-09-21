@@ -8,7 +8,7 @@ import Home         from './home';
 import NewContext   from './context';
 import { isEmpty }                      from 'lodash';
 
-const CLIENT_ID = "22f71f00213e8ab8d23e";
+const CLIENT_ID = "";
 const token = localStorage.getItem("token");
 
 
